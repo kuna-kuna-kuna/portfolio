@@ -1,0 +1,13 @@
+.HeaderContainer {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .HeaderTitle {
+    color: #0891b2;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+  }
+}

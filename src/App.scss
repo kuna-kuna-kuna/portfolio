@@ -1,0 +1,10 @@
+.App {
+  background-color: rgba(15, 23, 42, 255);
+  color: white;
+  padding-inline: 23vw;
+  .Container {
+    height: calc(100% - 15px);
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}

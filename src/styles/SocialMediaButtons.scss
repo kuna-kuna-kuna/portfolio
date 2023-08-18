@@ -1,0 +1,10 @@
+.SocialMediaButtonContainer {
+  padding-top: 2vh;
+  .Button {
+    padding-right: 10px;
+    transition: transform 0.3s ease;
+    &:hover {
+      transform: translateY(10px);
+    }
+  }
+}
