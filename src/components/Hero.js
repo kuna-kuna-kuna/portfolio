@@ -18,7 +18,7 @@ export default function Hero() {
       </div>
       <img
         className="HeroAvatar"
-        src="/assets/avatar.svg"
+        src={require("../assets/avatar.svg")}
         alt="Avatar "
         loading="lazy"
       />

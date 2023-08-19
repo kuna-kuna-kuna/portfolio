@@ -5,7 +5,7 @@ export default function SocialMediaButtons() {
       <a href="https://www.linkedin.com/in/aleksa-kunovac-3a4977202/">
         <img
           className="Button"
-          src="/assets/linkedin.png"
+          src="assets/linkedin.png"
           alt="facebook"
           height={40}
           width={40}
@@ -14,7 +14,7 @@ export default function SocialMediaButtons() {
       <a href="https://github.com/kuna-kuna-kuna">
         <img
           className="Button"
-          src="/assets/github.png"
+          src="assets/github.png"
           alt="facebook"
           height={40}
           width={40}
@@ -22,7 +22,7 @@ export default function SocialMediaButtons() {
       </a>
       <img
         className="Button"
-        src="/assets/facebook.png"
+        src="assets/facebook.png"
         alt="facebook"
         height={40}
         width={40}
