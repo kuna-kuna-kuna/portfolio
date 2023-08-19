@@ -1,11 +1,14 @@
 import "../styles/SocialMediaButtons.scss";
+import Facebook from "../assets/facebook.png";
+import Github from "../assets/github.png";
+import Linkedin from "../assets/linkedin.png";
 export default function SocialMediaButtons() {
   return (
     <div className="SocialMediaButtonContainer">
       <a href="https://www.linkedin.com/in/aleksa-kunovac-3a4977202/">
         <img
           className="Button"
-          src="assets/linkedin.png"
+          src={Linkedin}
           alt="facebook"
           height={40}
           width={40}
@@ -14,7 +17,7 @@ export default function SocialMediaButtons() {
       <a href="https://github.com/kuna-kuna-kuna">
         <img
           className="Button"
-          src="assets/github.png"
+          src={Github}
           alt="facebook"
           height={40}
           width={40}
@@ -22,7 +25,7 @@ export default function SocialMediaButtons() {
       </a>
       <img
         className="Button"
-        src="assets/facebook.png"
+        src={Facebook}
         alt="facebook"
         height={40}
         width={40}

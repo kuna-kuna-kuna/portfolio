@@ -1,5 +1,6 @@
 import "../styles/Hero.scss";
 import SocialMediaButtons from "./SocialMediaButtons";
+import Avatar from "../assets/avatar.svg";
 
 export default function Hero() {
   return (
@@ -16,12 +17,7 @@ export default function Hero() {
         </div>
         <SocialMediaButtons />
       </div>
-      <img
-        className="HeroAvatar"
-        src="assets/avatar.svg"
-        alt="Avatar "
-        loading="lazy"
-      />
+      <img className="HeroAvatar" src={Avatar} alt="Avatar " loading="lazy" />
     </div>
   );
 }
