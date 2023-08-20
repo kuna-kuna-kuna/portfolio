@@ -20,18 +20,26 @@ const TechnologyColors = {
 export default function ProjectCard({ data }) {
   return (
     <div className="ProjectCard">
-      <img src={data?.image} width={150} height={150} alt="project logo" />
+      <img
+        className="Image"
+        src={data?.image}
+        width={150}
+        height={150}
+        alt="project logo"
+      />
       <div className="ContentContainer">
         <div className="ContentHeader">
           <div className="ContentTitle">{data?.title}</div>
-          {data?.languages?.map((item) => (
-            <div
-              className="TechnologyCard"
-              style={{ backgroundColor: TechnologyColors[item] }}
-            >
-              {item}
-            </div>
-          ))}
+          <div className="TechnologyCardContainer">
+            {data?.languages?.map((item) => (
+              <div
+                className="TechnologyCard"
+                style={{ backgroundColor: TechnologyColors[item] }}
+              >
+                {item}
+              </div>
+            ))}
+          </div>
         </div>
         <div className="Content">{data?.description}</div>
       </div>
