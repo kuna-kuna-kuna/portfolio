@@ -23,5 +23,9 @@
   }
   .HeroAvatar {
     height: 35vh;
+    @media (max-width: 650px) {
+      height: 150px;
+      width: 100px;
+    }
   }
 }
