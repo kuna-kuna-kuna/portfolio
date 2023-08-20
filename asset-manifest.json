@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0ea718cc.css",
+    "main.css": "/portfolio/static/css/main.4a76bd38.css",
     "main.js": "/portfolio/static/js/main.0694477b.js",
     "static/media/avatar.svg": "/portfolio/static/media/avatar.f6488703047e2911d1375bc161c91d53.svg",
     "static/media/react.png": "/portfolio/static/media/react.cb383f7be127b0183272.png",
@@ -8,11 +8,11 @@
     "static/media/yummee_logo.png": "/portfolio/static/media/yummee_logo.8c37d971c1027851372a.png",
     "index.html": "/portfolio/index.html",
     "static/media/cloud_medify.svg": "/portfolio/static/media/cloud_medify.4bed7d5f1fe4c491745e03e10892bc1d.svg",
-    "main.0ea718cc.css.map": "/portfolio/static/css/main.0ea718cc.css.map",
+    "main.4a76bd38.css.map": "/portfolio/static/css/main.4a76bd38.css.map",
     "main.0694477b.js.map": "/portfolio/static/js/main.0694477b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ea718cc.css",
+    "static/css/main.4a76bd38.css",
     "static/js/main.0694477b.js"
   ]
 }
