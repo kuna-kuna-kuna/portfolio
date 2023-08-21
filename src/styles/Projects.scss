@@ -21,6 +21,17 @@
     border-radius: 6px;
     display: flex;
     flex-direction: row;
+    transition: filter 0.3s ease;
+
+    &.blur {
+      filter: blur(10px);
+      cursor: pointer;
+    }
+
+    &:hover {
+      filter: blur(10px);
+      cursor: pointer;
+    }
     .Image {
       @media (max-width: 800px) {
         align-self: center;
@@ -71,6 +82,7 @@
           }
         }
       }
+
       .Content {
         margin-top: 20px;
         line-height: 26px;

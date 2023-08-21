@@ -6,11 +6,19 @@ import Github from "./assets/github.png";
 import React from "./assets/react.png";
 export const Data = [
   {
+    title: "Super Admin",
+    image: React,
+    description:
+      "A web application developed for Super-Admins to manage and track the review process of application forms submitted by candidates from various universities. The system aims to streamline the process of form approval, involving multiple reviewers, to ensure fair and efficient handling of applications.",
+    languages: ["React.js", "Mui material", "Javascript", "Redux"],
+  },
+  {
     title: "Cloud Medify",
     image: CloudMedify,
     description:
       "A web-based solution for cloudedofy, which is used for easier tracking of the patient’s medical records, setting up doctor’s appointments, and tracking the history of the patient’s visits.",
     languages: ["React.js", "MUI material", "Javascript", "Redux"],
+    view: "https://cloudmedify.com/",
   },
   {
     title: "Yummee",
@@ -18,6 +26,7 @@ export const Data = [
     description:
       "Yummee is a mobile application for restaurant reservations, and it's frontend is developed using React and TypeScript",
     languages: ["React Native.ts", "Typescript", "Redux", "Expo"],
+    view: "https://play.google.com/store/apps/details?id=com.yummee.yummee",
   },
   {
     title: "Securaze",
@@ -25,6 +34,7 @@ export const Data = [
     description:
       "SECURAZE is an asset diagnostic and certified data erasure platform. FE developing in React.js.",
     languages: ["React.js", "MUI material", "Javascript", "Redux"],
+    view: "https://securaze.com/",
   },
   {
     title: "Proptrek",
@@ -39,6 +49,7 @@ export const Data = [
       "React Native.ts",
       "Expo",
     ],
+    view: "https://www.proptrek.com/",
   },
   {
     title: "Github Finder",
@@ -46,6 +57,7 @@ export const Data = [
     description:
       "Self made application that use third party api Github, that searching github profiles and displaying them",
     languages: ["React.js", "Tailwind.css", "Javascript"],
+    github: "https://github.com/kuna-kuna-kuna/GitHub-Finder",
   },
   {
     title: "Github Repos",
@@ -53,12 +65,5 @@ export const Data = [
     description:
       "Self made application that use third party api Github, that searching github repos and displaying them",
     languages: ["React.js", "CSS", "Javascript", "Redux"],
-  },
-  {
-    title: "Super Admin",
-    image: React,
-    description:
-      "A web application developed for Super-Admins to manage and track the review process of application forms submitted by candidates from various universities. The system aims to streamline the process of form approval, involving multiple reviewers, to ensure fair and efficient handling of applications.",
-    languages: ["React.js", "Mui material", "Javascript", "Redux"],
   },
 ];
