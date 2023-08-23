@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4a76bd38.css",
-    "main.js": "/portfolio/static/js/main.0694477b.js",
+    "main.css": "/portfolio/static/css/main.3ad68f60.css",
+    "main.js": "/portfolio/static/js/main.6dc8633c.js",
     "static/media/avatar.svg": "/portfolio/static/media/avatar.f6488703047e2911d1375bc161c91d53.svg",
     "static/media/react.png": "/portfolio/static/media/react.cb383f7be127b0183272.png",
     "static/media/logo.png": "/portfolio/static/media/logo.0536e371aaaa705a5d3f.png",
     "static/media/yummee_logo.png": "/portfolio/static/media/yummee_logo.8c37d971c1027851372a.png",
+    "static/media/github.svg": "/portfolio/static/media/github.b942942532960a43fcdacd292cec96cb.svg",
+    "static/media/eye.svg": "/portfolio/static/media/eye.48daaa2c2715e1b1f37fae5e0d2825d6.svg",
     "index.html": "/portfolio/index.html",
     "static/media/cloud_medify.svg": "/portfolio/static/media/cloud_medify.4bed7d5f1fe4c491745e03e10892bc1d.svg",
-    "main.4a76bd38.css.map": "/portfolio/static/css/main.4a76bd38.css.map",
-    "main.0694477b.js.map": "/portfolio/static/js/main.0694477b.js.map"
+    "main.3ad68f60.css.map": "/portfolio/static/css/main.3ad68f60.css.map",
+    "main.6dc8633c.js.map": "/portfolio/static/js/main.6dc8633c.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a76bd38.css",
-    "static/js/main.0694477b.js"
+    "static/css/main.3ad68f60.css",
+    "static/js/main.6dc8633c.js"
   ]
 }
