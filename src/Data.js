@@ -10,14 +10,16 @@ export const Data = [
     image: React,
     description:
       "A web application developed for Super-Admins to manage and track the review process of application forms submitted by candidates from various universities. The system aims to streamline the process of form approval, involving multiple reviewers, to ensure fair and efficient handling of applications.",
-    languages: ["React.js", "Mui material", "Javascript", "Redux"],
+    languages: ["React.js", "Material UI", "Javascript", "Redux"],
+    view: "https://kuna-kuna-kuna.github.io/superadmin",
+    github: "https://github.com/kuna-kuna-kuna/superadmin",
   },
   {
     title: "Cloud Medify",
     image: CloudMedify,
     description:
       "A web-based solution for cloudedofy, which is used for easier tracking of the patient’s medical records, setting up doctor’s appointments, and tracking the history of the patient’s visits.",
-    languages: ["React.js", "MUI material", "Javascript", "Redux"],
+    languages: ["React.js", "Material UI", "Javascript", "Redux"],
     view: "https://cloudmedify.com/",
   },
   {
@@ -33,7 +35,7 @@ export const Data = [
     image: Securaze,
     description:
       "SECURAZE is an asset diagnostic and certified data erasure platform. FE developing in React.js.",
-    languages: ["React.js", "MUI material", "Javascript", "Redux"],
+    languages: ["React.js", "Material UI", "Javascript", "Redux"],
     view: "https://securaze.com/",
   },
   {

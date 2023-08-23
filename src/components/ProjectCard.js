@@ -9,7 +9,7 @@ const TechnologyColors = {
   Redux: "#01d8ff",
   "Express.js": "#0a8968",
   "Maria db": "#c30b73",
-  "MUI material": "#8cc4f6",
+  "Material UI": "#8cc4f6",
   Tailwind: "#59b529",
   SASS: "#f75ca7",
   Firebase: "#cf0d07",
